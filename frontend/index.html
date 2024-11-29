@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoom Bot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Zoom Meeting Bot</h1>
+    <p>Enter the Zoom meeting link below, and the bot will join the meeting.</p>
+    <form id="zoomForm">
+      <label for="meetingLink">Zoom Meeting Link:</label>
+      <input type="url" id="meetingLink" placeholder="https://zoom.us/j/1234567890?pwd=example" required>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="responseMessage"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
